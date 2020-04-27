@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bitart</title>
+    <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css_index/menu.css">
+    <link rel="stylesheet" href="css_index/slider.css">
+    <link rel="stylesheet" href="css_index/contenido.css">
+    <link rel="stylesheet" href="css_index/footer.css">
+</head>
+
+<body>
+
+    <header class="iconobitart">
+        <img class="img_logo" src="iconos/iconobitart.png" alt="logobitart">
+    </header>
+
+    <header class="main_header">
+        <input type="checkbox" id="boton_menu">
+        <label class="icono_menu" for="boton_menu">
+
+            <img src="iconos/iconomenu.png" alt="icono_menu" width="35px" height="35px">
+
+
+        </label>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="obras/obras.html">obras</a></li>
+            </ul>
+
+            <div class="dropdown">
+                <button class="dropbtn">more</button>
+                <div class="dropdown-content">
+                    <a href="#seccion1">seccion1</a>
+                    <a href="#seccion2">seccion2</a>
+                    <a href="#seccion3">seccion3</a>
+                    <a href="#info">info</a>
+                </div>
+            </div>
+
+
+        </nav>
+
+    </header>
+
+    <section>
+        <article>
+
+            <ul class="slider-portada">
+
+                <li>
+                    <input type="radio" id="sbutton1" name="sradio" checked>
+                    <label for="sbutton1"></label>
+
+                    <img src="imagenes/obra1.jpg" alt="obra1">
+                </li>
+
+                <li>
+                    <input type="radio" id="sbutton2" name="sradio">
+                    <label for="sbutton2"></label>
+                    <img src="imagenes/obra2.jpg" alt="obra2">
+                </li>
+
+                <li>
+                    <input type="radio" id="sbutton3" name="sradio">
+                    <label for="sbutton3"></label>
+                    <img src="imagenes/obra3.jpg" alt="obra3">
+                </li>
+
+                <li>
+                    <input type="radio" id="sbutton4" name="sradio">
+                    <label for="sbutton4"></label>
+                    <img src="imagenes/obra4.jpg" alt="obra4">
+                </li>
+
+            </ul>
+
+        </article>
+
+    </section>
+
+
+    <article id="seccion1" class="bloquetitulo">
+        <h1>biendenidos a BITART!</h1>
+        <section class="parrafotitulo">
+
+            <p>
+                en BITART estamos convemcidos de que el arte debe <br> formar parte de la bida de todos, por eso es una
+                plataforma <br> para aficionasdos al arte asi mismo para ti. conoce <br> obras de arte y pintores mas
+                destacados del mundo <br>
+            </p>
+
+            <div class="iconoart">
+                <img src="iconos/milo-venus.png" alt="iconodebloque">
+            </div>
+
+        </section>
+    </article>
+
+    <article id="seccion2" class="bloquetitulo2">
+        <h1>pintores destacados de la historia</h1>
+        <section class="parrafotitulo2">
+
+            <hr width="600px" color="salmon">
+
+            <p>
+                cuando el arte es un placer <br>
+                el arte les brinda un medio a las personas <br>
+                para expresarce, ya que puede ser utilizado para <br>
+                 difundir ideas, emociones, opiniones o creencias. <br>
+                Dali,DaVinci,Van Gogh entre otros ... <br>
+                siendo los pintores mas destacados de la historia. <br>
+                simplemente haz <span style="color: salmon;">click</span>
+                en el video.
+            </p>
+        </section>
+
+        <section class="videopintores">
+            <video src="video/videopintores.mp4" width="510px" height="400px" controls></video>
+
+        </section>
+    </article>
+
+    <figure id="seccion3" class="fotografia">
+        <img src="imagenes/bobross.jpg" alt="fotobob" class="fotobob" >
+        <i>
+            <q>no cometemos errores. simplemente tenemos accidentes felices.</q>
+        </i>
+        <p>Bob ross</p>
+    </figure>
+
+    <figure>
+
+        <footer id="info">
+            <section class="partefooter">
+                <h1 class="titulomapa">tambien puedes ubicarnos y contactarnos</h1>
+
+                <div class="contenidof">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7313830556122!2d-74.06719788558084!3d4.641932943457687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9abf01007c8b%3A0xf34837fe0c5507db!2sBIT%20-%20Cursos%20de%20Programaci%C3%B3n%20en%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1583337505777!5m2!1ses!2sco"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" frameborder="0"
+                        style="border:0" allowfullscreen=""></iframe>
+                
+
+                <form action="">
+                <h2>contactos</h2>
+                <input type="text" name="nombre" placeholder="Nombre" maxlength="35">
+                <input type="email" name="correo" placeholder="control">
+                <input type="tel" name="telefono" placeholder="Nombre:">
+                <textarea name="mensaje" id="textarea" placeholder="escriba aqui su mensaje....">
+            </textarea>
+                <label for="texarea"></label>
+                <input type="submit" id="boton" value="enviar">
+                    </form>
+                 </div>
+            </section>
+
+            <div class="contenido iconos">
+                <hr width="85%" color="salmon">
+                <div class="iconos redes">
+                    <div class="ajusteicono">
+                     <a href="https://twitter.com/bit_institute" target="blank"> <img src="iconos/twitter.png" alt="iconotwitter"></a>
+                     <a href="https://es-la.facebook.com/BogotaInstituteOfTechnology" target="blank"><img src="iconos/facebook.png" alt="iconofacebook"></a>
+                     <a href="https://www.instagram.com/bit_institute/?hl=es" target="blank"><img src="iconos/instagram.png" alt="iconoinstragram"></a>
+                </div>
+                     </div>
+                        </div>
+
+
+                        <div class="textfooter">
+
+                            <p>
+                                © COPYRIGHT 2020 Bogota Institute Of Technology
+                                <br>
+                                TODOS LOS DERECHOS RESERVADOS. BOGOTA-COLOMBIA.
+                            </p>
+                        </div>
+        </footer>
+
+    </figure>
+</body>
+
+</html>

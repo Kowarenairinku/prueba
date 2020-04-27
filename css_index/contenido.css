@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.bloquetitulo{
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Trade Winds', cursive;
+    color: salmon;
+}
+
+.parrafotitulo{
+    letter-spacing: 1px;
+    font-family: cursive;
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: -30px;
+}
+
+.iconart{
+    padding-top: 55px;
+}
+
+.bloquetitulo2{
+
+    width: 100%;
+    display: inline-block;
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin: 0;
+    padding-top: 35px;
+    text-align: center;
+    color: salmon;
+    font-family: 'Trade Winds', cursive;
+    background-image: url(../imagenes/marmol1.jpg);
+    background-attachment: fixed;
+    background-size: 50%;
+
+}
+
+.parrafotitulo2{
+    letter-spacing: 1px;
+    font-family: cursive;
+    color: #000000;
+    float: left;
+    font-size: 24px;
+    margin-left: 85px;
+    margin-top: 45px;
+}
+
+.videopintores{
+    margin-top: -65px;
+
+}
+
+.fotografia{
+    text-align: center;
+    font-size: 40px;
+    color: salmon;
+    padding-bottom: 15%;
+}
+
+.fotobob{
+    width: 800px;
+    display: block;
+    margin: 135px auto;
+    border-radius: 15px;
+}

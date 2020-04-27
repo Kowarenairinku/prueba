@@ -1,0 +1,160 @@
+
+.iconobitart{
+        background: #000000;
+        padding-top: 15px;
+}
+
+.img_logo{
+    width: 150px;
+
+    height: 200px;
+
+     margin: 0 auto;/* es reemplasado por algun valor apropiadao */
+     display: block;
+}
+
+.main_header{
+
+    text-align: center;
+    width: 100%;
+    height: 110%;
+    background: #000000;
+    font-size: 23px;
+    font-family: 'Trade Winds', cursive;
+    margin-top: -8px;
+}
+
+.icono_menu{
+ padding-top: 30px;
+
+
+}
+
+#boton_menu{
+    display: none;
+
+}
+
+header label{
+    display: none;
+    width: 100px;
+    padding: 10px;
+    border-right: 1px solid #ffffff;
+
+}
+
+header label:hover{
+    cursor: pointer;
+    background: salmon;
+}
+
+.menu ul{
+ 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: inline-flex;
+}
+
+.menu li{
+    padding: 20px 25px 0px 25px;
+
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover{
+    color: salmon;
+    text-decoration: overline;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn{
+    background-color: #000000;
+    font-size: 23px;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Trade Winds', cursive;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: salmon;
+}
+
+.dropdown:hover .dropbtn{
+    color: salmon;
+    text-decoration: overline;
+}
+
+@media(max-width:920px){
+
+    header label{
+        display: block;
+        height: 110px;
+    }
+    .menu{
+        position: absolute;
+        background: salmon;
+        width: 100%;
+        margin-left: -100%;
+        transition: all 0.5s;
+        z-index: 100;
+    }
+#boton_menu:checked~ .menu{
+    margin: 0;
+}
+.menu ul{
+    display: block;
+
+}
+menu li:hover{
+    background-color: #000000;
+}
+
+.dropbtn{
+    background-color: salmon;
+    color: white;
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+}
+
+.dropdown-content a:hover{
+    color: salmon;
+    background-color: #000000;
+}
+.dropdown:hover .dropbtn{
+    color: salmon;
+    background-color: #000000;
+}
+
+}
